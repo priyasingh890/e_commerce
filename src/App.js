@@ -3,6 +3,7 @@ import './App.css';
 import Login from './component/login';
 import Header from "./component/Header";
 import Product from "./component/Product";
+import Navbar from './component/navbar';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Login/>
      <Header/>
      <Product/>
+     <Navbar/>
     </div>
   );
 }
